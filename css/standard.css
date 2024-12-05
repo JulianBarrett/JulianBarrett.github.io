@@ -1,0 +1,76 @@
+/* General Reset */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f9; /* Light background for a clean look */
+    color: #333; /* Dark text for readability */
+}
+
+/* Header Styling */
+h1 {
+    font-size: 50px;
+    font-weight: 900;
+    text-align: center;
+    margin-top: 20px important!;
+    color: #222; /* Slightly darker header text */
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+/* Paragraph Styling */
+p {
+    max-width: 800px; /* Limit line width for readability */
+    margin: 20px auto;
+    margin-bottom: 10px;
+    padding: 10px;
+    line-height: 1.8;
+    font-size: 20px;
+    color: #555; /* Muted text color for paragraphs */
+    background-color: #fff; /* White background for contrast */
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    border: 1px solid #ddd; /* Light border for structure */
+}
+
+/* Image Styling */
+img {
+    display: block; /* Center-align the image */
+    margin: 20px auto;
+    max-width: 100%; /* Make the image responsive */
+    height: auto;
+    border-radius: 8px; /* Rounded corners for aesthetics */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Slight shadow for emphasis */
+}
+
+/* Links Styling */
+a {
+    text-decoration: none;
+    color: #007BFF; /* Bootstrap primary blue */
+    font-weight: 700;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #0056b3; /* Darker blue on hover */
+}
+
+/* Container for Centering Content */
+body > * {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+
+video {
+    display: block; /* Center-align the video */
+    margin: 20px auto;
+    max-width: 100%; /* Responsive video */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px; /* Rounded corners for a polished look */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Slight shadow for emphasis */
+    border: 1px solid #ddd; /* Light border for structure */
+    background-color: #000; /* Black background for videos */
+}
